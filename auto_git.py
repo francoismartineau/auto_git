@@ -13,6 +13,6 @@ def git_commands(repository):
                                         now.day)
     commands = []
     commands.append(["git", "add", "."])
-    commands.append(["git", "commit", "-m", "AutoCommit{0} ".format(date)])
+    commands.append(["git", "commit", "-m", "AutoCommit {0} ".format(date)])
     commands.append(["git", "push", "origin", "master"])
     return commands
