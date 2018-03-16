@@ -1,8 +1,9 @@
 import datetime
 
 """
-    \Brief: Automatically creates commands to push origin master a given repository.
-    \Brief: The origin remote will be used by default.
+    \Brief: Automatically creates commands to commit everything and
+            push origin master a given repository.
+            The origin remote will be used by default.
     \Argument [repository]: string that represents the path to the repository
     \Return: A string list list of all the commands. Perfect to pass to subprocess.call
 """
